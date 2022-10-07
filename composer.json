@@ -27,5 +27,10 @@
   ],
   "autoload": {
     "psr-4": {"NoVerify\\": "src/cmd/composer-get/src"}
+  },
+  "script": {
+    "post-package-install": [
+      "noverify-get"
+    ]
   }
 }
