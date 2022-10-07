@@ -1,5 +1,6 @@
 {
-  "name": "vkcom/noverify",
+  "name": "glsee/noverify",
+  "replaces": "vkcom/noverify",
   "description": "Pretty fast linter (code static analysis utility) for PHP",
   "type": "library",
   "homepage": "https://github.com/VKCOM/noverify",
