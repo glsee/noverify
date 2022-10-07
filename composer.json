@@ -1,6 +1,11 @@
 {
   "name": "glsee/noverify",
   "replaces": "vkcom/noverify",
+  "extra": {
+    "branch-alias": {
+        "dev-post-install-script": "0.5.3.x-dev"
+    }
+  },
   "description": "Pretty fast linter (code static analysis utility) for PHP",
   "type": "library",
   "homepage": "https://github.com/VKCOM/noverify",
